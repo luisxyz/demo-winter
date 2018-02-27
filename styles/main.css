@@ -52,7 +52,22 @@ layer {
   background-color: clear; }
 
 .button-clear {
-  background-color: tranpent; }
+  border: 1px solid #e7e7e7;
+  margin: 20px auto 50px auto;
+  height: 30px;
+  font-size: 12px;
+  line-height: 27px;
+  width: 132px;
+  display: block; }
+
+.button-clear:hover {
+  text-decoration: none;
+  color: #26272d;
+  box-shadow: 1px 1px 1px white, inset 0px 0px 0.5px #grey-medium;
+  background-color: #e7e7e7;
+  text-shadow: 1px 1px 1px white,inset -1px -2px 5px black;
+  border: 1px solid lightgrey;
+  cursor: pointer; }
 
 .button-text-dark {
   color: #26272d; }
@@ -63,25 +78,8 @@ layer {
 .button-text-blue {
   color: #267df4; }
 
-#intro-play-button {
-  border: 1px solid #e7e7e7;
-  margin: 20px auto 50px auto;
-  height: 30px;
-  font-size: 12px;
-  line-height: 27px;
-  width: 132px;
-  display: block; }
-  #intro-play-button > .fa-play {
-    margin-right: 5px; }
-
-#intro-play-button:hover {
-  text-decoration: none;
-  color: #26272d;
-  box-shadow: 1px 1px 1px white, inset 0px 0px 0.5px #grey-medium;
-  background-color: #e7e7e7;
-  text-shadow: 1px 1px 1px white,inset -1px -2px 5px black;
-  border: 1px solid lightgrey;
-  cursor: pointer; }
+#intro-play-button > .fa-play {
+  margin-right: 5px; }
 
 #content-intro-iphone {
   display: block;
@@ -169,13 +167,22 @@ nav {
   font-size: 25px; }
 
 /********************* Content-2-phone ********************************* */
-#content-2-iphone6img img {
-  width: 410px; }
+#content-2-phone {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 1px solid #e7e7e7; }
+  #content-2-phone h4:first-of-type {
+    color: #26272d; }
+  #content-2-phone .content-2-iphone6img {
+    width: 410px; }
+  #content-2-phone .button.button-clear {
+    display: inline-block;
+    margin: 20px 20px 0 20px; }
 
 /********************* Content-3-global ********************************* */
 /********************* Footer ********************************************* */
 footer {
-  margin-bottom: 100px;
+  margin: 50px auto 100px auto;
   border-top: 1px solid #e7e7e7; }
   footer p:first-of-type {
     margin-bottom: 25px; }
