@@ -84,7 +84,7 @@ layer {
 #content-intro-iphone {
   display: block;
   margin: 0 auto;
-  padding-top: 61px;
+  padding-top: 62px;
   width: 250px; }
 
 h1 {
@@ -174,11 +174,19 @@ nav {
   #content-2-phone h4:first-of-type {
     color: #26272d; }
   #content-2-phone .content-2-iphone6img {
-    width: 410px; }
+    width: 451px; }
   #content-2-phone .button.button-clear {
     display: inline-block;
     margin: 20px 20px 0 20px; }
 
+/* Extra Small Devices, Phones */
+/* @media only (min-width : 768px) and (max-width : 992px) { */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #content-2-phone .content-2-iphone6img {
+    margin-left: -100px; }
+
+  .footer-links ul:nth-of-type(3) {
+    margin-top: 20px; } }
 /********************* Content-3-global ********************************* */
 /********************* Footer ********************************************* */
 footer {
